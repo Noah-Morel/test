@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Verdana ;
+}
+
+header {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(img/landscape.jpg);
+    background-size: cover;
+}
+
+#navbar {
+    .navbar {
+        position: absolute;
+        padding: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    a {
+        color: white;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+    
+    .logo {
+        font-size: 2em;
+        font-weight: bold;
+    }
+    
+    .selcetion {
+        display: flex;
+        align-items: center;
+    }
+    
+    .selcetion ul {
+        display: flex;
+    }
+    
+    .selcetion li {
+        margin: 0 25px;
+    }
+    
+    .active {
+        color: red;
+        font-weight: 700;
+    }
+
+    #cercle-autour {
+        
+    }
+
+    .selcetion-hamburger {
+        background-color: rgba(255, 255, 255, 0.164);
+        backdrop-filter:blur(7px);
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: -100%;
+        transition: all 0.5s ease;
+        ul {
+            color: black;
+            font-size: 25px;
+            font-family: Verdana;
+            text-align: center;
+        }
+        li {
+            margin: 30px 0;
+        }
+    }
+
+
+    @media screen and (max-width: 1300px) {
+        .selcetion {
+            display: none;
+        }
+    }
+
+    @media screen and (min-width: 1300px) {
+        .menu-hamburger {
+            display: none;
+        }
+    }
+
+    @media screen and (min-width: 1300px) {
+        .selcetion-hamburger {
+            display: none;
+        }
+    }
+
+    .mobile-menu {
+        margin: 0;
+    }
+
+    
+}
+    
+    .menu-hamburger {
+        position: absolute;
+        width: 35px;
+        right: 50px;
+        display: flex;
+        top: 54px;
+
+    }
