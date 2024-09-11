@@ -84,7 +84,7 @@ header {
     }
 
 
-    /*@media screen and (max-width: 1300px) {
+    @media screen and (max-width: 1300px) {
         .selcetion {
             display: none;
         }
@@ -100,7 +100,7 @@ header {
         .selcetion-hamburger {
             display: none;
         }
-    }*/
+    }
 
     .mobile-menu {
         margin: 0;
