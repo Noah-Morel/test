@@ -46,10 +46,12 @@
     <header></header>
 </body>
 <script>
+                           
     const menuHamburger = document.querySelector(".menu-hamburger")
         const navLinks = document.querySelector(".selcetion-hamburger")
  
         menuHamburger.addEventListener('click',()=>{
+        document.addEventListener("click", function() { });
         navLinks.classList.toggle('mobile-menu')
         })
 </script>
