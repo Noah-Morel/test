@@ -1,4 +1,9 @@
 @charset "UTF-8";
+
+body {
+	-webkit-text-size-adjust: none;
+}
+
 * {
     margin: 0;
     padding: 0;
